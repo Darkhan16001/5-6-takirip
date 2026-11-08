@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Ұлы Жібек жолы | Қазақстан тарихы</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="brand">
+    <div class="logo">ҚТ</div>
+    <div>
+      <h1>ҚАЗАҚСТАН ТАРИХЫ</h1>
+      <p>1-курс • Интерактивті сабақ</p>
+    </div>
+  </div>
+
+  <div class="header-badges">
+    <span>§5–6</span>
+    <span>80 минут</span>
+  </div>
+</header>
+
+<div class="layout">
+
+  <main class="main">
+
+    <section class="lesson-heading">
+
+      <div class="eyebrow">
+        I БӨЛІМ · ЕКІНШІ ТАРАУ
+      </div>
+
+      <h2>
+        Қазақстандағы қала мәдениетінің
+        дамуындағы Ұлы Жібек жолының рөлі
+      </h2>
+
+      <p>
+        Дала мен қала: өзара қарым-қатынас
+        және өзара әсері
+      </p>
+
+      <div class="progress">
+        <div id="progressBar"></div>
+      </div>
+
+      <div class="progress-info">
+        <span id="stageTitle">Кіріспе</span>
+        <span id="pageCount">1 / 8</span>
+      </div>
+
+    </section>
+
+    <section id="content" class="content"></section>
+
+    <footer class="footer">
+      <span>Қазақстан тарихы • §5–6</span>
+      <strong>BY DARKHAN</strong>
+    </footer>
+
+  </main>
+
+  <aside class="sidebar">
+
+    <h3>САБАҚТЫ БАСҚАРУ</h3>
+
+    <div class="side-section">
+      <div class="side-label">Сабақ таймері</div>
+
+      <div id="timer" class="timer">00:00</div>
+
+      <div id="remaining" class="remaining">
+        Қалғаны: 80:00
+      </div>
+
+      <div class="timer-buttons">
+        <button id="startTimer" class="green">
+          Бастау
+        </button>
+
+        <button id="pauseTimer" class="gray">
+          Тоқтату
+        </button>
+
+        <button id="resetTimer" class="red">
+          Нөлдеу
+        </button>
+      </div>
+    </div>
+
+    <div class="side-section">
+      <div class="side-label">Сабақ кезеңдері</div>
+      <nav id="stageNav"></nav>
+    </div>
+
+    <div class="side-section">
+      <div class="side-label">Командалардың ұпайлары</div>
+
+      <div id="scoreboard"></div>
+
+      <button id="resetScores" class="reset-scores">
+        Ұпайларды нөлдеу
+      </button>
+    </div>
+
+    <div class="side-section navigation">
+      <button id="previous" class="previous">
+        ← Алдыңғы бет
+      </button>
+
+      <button id="next" class="next">
+        Келесі бет →
+      </button>
+    </div>
+
+  </aside>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
